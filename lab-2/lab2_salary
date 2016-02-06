@@ -1,0 +1,9 @@
+
+puts "How many Hours have you Worked?"
+hours = gets.to_i
+
+puts "What is your hourly rate"
+rate = gets.to_i
+pay = hours * rate
+puts "your pay will be - " + pay.to_s
+
